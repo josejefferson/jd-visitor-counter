@@ -22,7 +22,7 @@
 <span class="pl-kos">&lt;</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>URL All: <span class="pl-kos">&lt;</span><span class="pl-ent">span</span> <span class="pl-c1">class</span>="<span class="pl-s">url-all</span>"<span class="pl-kos">&gt;</span>-<span class="pl-kos">&lt;/</span><span class="pl-ent">span</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>
 <span class="pl-kos">&lt;</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>URL Online: <span class="pl-kos">&lt;</span><span class="pl-ent">span</span> <span class="pl-c1">class</span>="<span class="pl-s">url-online</span>"<span class="pl-kos">&gt;</span>-<span class="pl-kos">&lt;/</span><span class="pl-ent">span</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>
 
-<span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>="<span class="pl-s">https://jd-visitor-counter.herokuapp.com/script.min.js</span>" <span class="pl-c1">async</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>="<span class="pl-s">https://jd-visitor-counter.adaptable.app/script.min.js</span>" <span class="pl-c1">async</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span>
 <span class="pl-kos">&lt;</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span>
   <span class="pl-smi">window</span><span class="pl-kos">.</span><span class="pl-en">addEventListener</span><span class="pl-kos">(</span><span class="pl-s">'load'</span><span class="pl-kos">,</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
     <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-s">'VisitorCounter'</span> <span class="pl-k">in</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-v">VisitorCounter</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
@@ -175,12 +175,12 @@
 		<a id="user-content-custom-counter" class="anchor" href="#custom-counter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom counter</h2>
 	<p>This returns an animated SVG image with the amount of visitors</p>
 	<p>Useful for putting on GitHub or pages that don't allow scripting</p>
-	<p><strong>GET</strong> <code>https://jd-visitor-counter.herokuapp.com/custom/&lt;id&gt;/count.svg</code></p>
+	<p><strong>GET</strong> <code>https://jd-visitor-counter.adaptable.app/custom/&lt;id&gt;/count.svg</code></p>
 	<p><code>&lt;id&gt;</code> Any string</p>
-	<p><img src="https://jd-visitor-counter.herokuapp.com/custom/JDVisitorCounter/count.svg" alt="Visitor counter" style="max-width:100%;"></p>
+	<p><img src="https://jd-visitor-counter.adaptable.app/custom/JDVisitorCounter/count.svg" alt="Visitor counter" style="max-width:100%;"></p>
 	<p><em>Example for GitHub:</em></p>
 	<div class="highlight highlight-source-gfm">
-		<pre>![<span class="pl-e">Visitor counter</span>](https://jd-visitor-counter.herokuapp.com/custom/github:YOURUSERNAME/count.svg)</pre>
+		<pre>![<span class="pl-e">Visitor counter</span>](https://jd-visitor-counter.adaptable.app/custom/github:YOURUSERNAME/count.svg)</pre>
 	</div>
 	<h3>
 		<a id="user-content-customizations" class="anchor" href="#customizations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customizations</h3>
@@ -205,10 +205,10 @@
 	</ul>
 	<p><em>Examples:</em></p>
 	<ul>
-		<li><code>https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=red</code></li>
-		<li><code>https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=red&amp;secondaryColor=green&amp;textColor=yellow&amp;minDigits=10</code></li>
+		<li><code>https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red</code></li>
+		<li><code>https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red&amp;secondaryColor=green&amp;textColor=yellow&amp;minDigits=10</code></li>
 		<li>
-			<code>https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=%23ff0000</code>
+			<code>https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=%23ff0000</code>
 			<blockquote>
 				<p>Note: To use hash character (<code>#</code>) use <code>%23</code> instead</p>
 			</blockquote>
@@ -223,7 +223,7 @@
 	<hr>
 	<p><sub>Developed by Jefferson Dantas</sub></p>
 
-	<script src="https://jd-visitor-counter.herokuapp.com/script.min.js" async></script>
+	<script src="https://jd-visitor-counter.adaptable.app/script.min.js" async></script>
 	<script>
 		window.addEventListener('load', () => {
 			if ('VisitorCounter' in window) VisitorCounter({
@@ -252,7 +252,7 @@ Insert this sample code on your website:
 <div>URL All: <span class="url-all">-</span></div>
 <div>URL Online: <span class="url-online">-</span></div>
 
-<script src="https://jd-visitor-counter.herokuapp.com/script.min.js" async></script>
+<script src="https://jd-visitor-counter.adaptable.app/script.min.js" async></script>
 <script>
   window.addEventListener('load', () => {
     if ('VisitorCounter' in window) VisitorCounter({
@@ -378,15 +378,15 @@ This returns an animated SVG image with the amount of visitors
 
 Useful for putting on GitHub or pages that don't allow scripting
 
-**GET** `https://jd-visitor-counter.herokuapp.com/custom/<id>/count.svg`
+**GET** `https://jd-visitor-counter.adaptable.app/custom/<id>/count.svg`
 
 `<id>` Any string
 
-![Visitor counter](https://jd-visitor-counter.herokuapp.com/custom/JDVisitorCounter/count.svg)
+![Visitor counter](https://jd-visitor-counter.adaptable.app/custom/JDVisitorCounter/count.svg)
 
 _Example for GitHub:_
 ```markdown
-![Visitor counter](https://jd-visitor-counter.herokuapp.com/custom/github:YOURUSERNAME/count.svg)
+![Visitor counter](https://jd-visitor-counter.adaptable.app/custom/github:YOURUSERNAME/count.svg)
 ```
 ### Customizations
 Customize the counter through query parameters
@@ -408,9 +408,9 @@ Customize the counter through query parameters
 	Minimum number of digits to be displayed (min. 1 / max. 20)
 
 _Examples:_
-* `https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=red`
-* `https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=red&secondaryColor=green&textColor=yellow&minDigits=10`
-* `https://jd-visitor-counter.herokuapp.com/custom/foo/count.svg?primaryColor=%23ff0000`
+* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red`
+* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red&secondaryColor=green&textColor=yellow&minDigits=10`
+* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=%23ff0000`
 	> Note: To use hash character (`#`) use `%23` instead
 
 ## Visitors
