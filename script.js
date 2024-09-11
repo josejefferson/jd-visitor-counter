@@ -28,7 +28,7 @@ function VisitorCounter(options = {}) {
 	if (!options.doNotUseWebSocket) {
 		const $socketIO = document.createElement('script')
 		$socketIO.onload = () => {
-			const socket = io('https://jd-visitor-counter.adaptable.app', {
+			const socket = io('https://jd-visitor-counter.onrender.com', {
 				query: {
 					path: location.pathname
 				}
@@ -44,10 +44,10 @@ function VisitorCounter(options = {}) {
 			socket.on('visitors.url.online', updateVisitorsUrlOnline)
 			socket.on('connect_error', () => {})
 		}
-		$socketIO.src = 'https://jd-visitor-counter.adaptable.app/socket.io/socket.io.min.js'
+		$socketIO.src = 'https://jd-visitor-counter.onrender.com/socket.io/socket.io.min.js'
 		document.body.appendChild($socketIO)
 	} else {
-		fetch('https://jd-visitor-counter.adaptable.app/visitors')
+		fetch('https://jd-visitor-counter.onrender.com/visitors')
 			.then(r => { if (!r.ok) throw r; return r.json() })
 			.then(r => {
 				if (typeof options.onLoad === 'function') {

@@ -7,7 +7,7 @@ Insert this sample code on your website:
 <div>URL All: <span class="url-all">-</span></div>
 <div>URL Online: <span class="url-online">-</span></div>
 
-<script src="https://jd-visitor-counter.adaptable.app/script.min.js" async></script>
+<script src="https://jd-visitor-counter.onrender.com/script.min.js" async></script>
 <script>
   window.addEventListener('load', () => {
     if ('VisitorCounter' in window) VisitorCounter({
@@ -133,15 +133,15 @@ This returns an animated SVG image with the amount of visitors
 
 Useful for putting on GitHub or pages that don't allow scripting
 
-**GET** `https://jd-visitor-counter.adaptable.app/custom/<id>/count.svg`
+**GET** `https://jd-visitor-counter.onrender.com/custom/<id>/count.svg`
 
 `<id>` Any string
 
-![Visitor counter](https://jd-visitor-counter.adaptable.app/custom/JDVisitorCounter/count.svg)
+![Visitor counter](https://jd-visitor-counter.onrender.com/custom/JDVisitorCounter/count.svg)
 
 _Example for GitHub:_
 ```markdown
-![Visitor counter](https://jd-visitor-counter.adaptable.app/custom/github:YOURUSERNAME/count.svg)
+![Visitor counter](https://jd-visitor-counter.onrender.com/custom/github:YOURUSERNAME/count.svg)
 ```
 ### Customizations
 Customize the counter through query parameters
@@ -163,9 +163,9 @@ Customize the counter through query parameters
 	Minimum number of digits to be displayed (min. 1 / max. 20)
 
 _Examples:_
-* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red`
-* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=red&secondaryColor=green&textColor=yellow&minDigits=10`
-* `https://jd-visitor-counter.adaptable.app/custom/foo/count.svg?primaryColor=%23ff0000`
+* `https://jd-visitor-counter.onrender.com/custom/foo/count.svg?primaryColor=red`
+* `https://jd-visitor-counter.onrender.com/custom/foo/count.svg?primaryColor=red&secondaryColor=green&textColor=yellow&minDigits=10`
+* `https://jd-visitor-counter.onrender.com/custom/foo/count.svg?primaryColor=%23ff0000`
 	> Note: To use hash character (`#`) use `%23` instead
 
 ---
